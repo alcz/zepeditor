@@ -64,6 +64,7 @@ public:
 
         static std::map<int, int> MapUSBKeys =
         {
+#if defined(_SDL_H) || defined(ZEP_USE_SDL)
             { ZEP_KEY_F1, ExtKeys::F1},
             { ZEP_KEY_F2, ExtKeys::F2},
             { ZEP_KEY_F3, ExtKeys::F3},
@@ -76,7 +77,9 @@ public:
             { ZEP_KEY_F10, ExtKeys::F10},
             { ZEP_KEY_F11, ExtKeys::F11},
             { ZEP_KEY_F12, ExtKeys::F12}
+#endif
         };
+
         if (io.MouseDelta.x != 0 || io.MouseDelta.y != 0)
         {
             OnMouseMove(toNVec2f(io.MousePos));
