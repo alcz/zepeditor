@@ -1,0 +1,13 @@
+/* Encoding: UTF-8 (No BOM)  Notation (in 5th position):
+     * Change, ! Fix, % Optimization, + Addition, - Removal, ; Comment
+   Entries may not always be in chronological/commit order.
+   See license at the end of file. */
+
+2022-11-12 22:11 UTC+0100 Aleksander Czajczynski (hb fki.pl)
+  + zepeditor.hbc
+  + zepeditor.hbp
+    ; imported https://github.com/Rezonality/zep
+      which is a editor framework with Dear ImGui display,
+      also has vim-mode.
+
+    + added hbmk2 build projects to not rely on cmake here

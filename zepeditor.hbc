@@ -1,0 +1,11 @@
+description=ZEP editor
+
+incpaths=./include/
+incpaths=./extensions/
+
+#headers=${hb_name}.ch
+
+libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
+libpaths=./
+
+{gcc|mingw|mingw64}libs=stdc++
