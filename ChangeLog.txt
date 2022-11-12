@@ -3,6 +3,18 @@
    Entries may not always be in chronological/commit order.
    See license at the end of file. */
 
+2022-11-12 22:27 UTC+0100 Aleksander Czajczynski (hb fki.pl)
+  * demos/demo_imgui/hbmain.cpp
+    * ported sample, removing SDL, adding Harbour and sokol
+      glue and a C++ in-block static initialization hack
+
+  + demos/demo_imgui/hbdemo.prg
+  + demos/demo_imgui/hbdemo.hbp
+    + project files and Harbour-main
+
+  + include/config_app.h
+    + just empty placeholder that is referenced
+
 2022-11-12 22:20 UTC+0100 Aleksander Czajczynski (hb fki.pl)
   + demos/demo_imgui/hbmain.cpp
     + will port this sample to work in Harbour-cimgui-sokol
