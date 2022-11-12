@@ -3,6 +3,11 @@
    Entries may not always be in chronological/commit order.
    See license at the end of file. */
 
+2022-11-12 22:20 UTC+0100 Aleksander Czajczynski (hb fki.pl)
+  + demos/demo_imgui/hbmain.cpp
+    + will port this sample to work in Harbour-cimgui-sokol
+      environment - a copy of main.cpp
+
 2022-11-12 22:11 UTC+0100 Aleksander Czajczynski (hb fki.pl)
   + zepeditor.hbc
   + zepeditor.hbp
