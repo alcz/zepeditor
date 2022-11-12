@@ -3,6 +3,10 @@
    Entries may not always be in chronological/commit order.
    See license at the end of file. */
 
+2022-11-12 22:33 UTC+0100 Aleksander Czajczynski (hb fki.pl)
+  * demos/demo_imgui/hbmain.cpp
+    * a try to uncrustify this with harbour.ucf config
+
 2022-11-12 22:27 UTC+0100 Aleksander Czajczynski (hb fki.pl)
   * demos/demo_imgui/hbmain.cpp
     * ported sample, removing SDL, adding Harbour and sokol
